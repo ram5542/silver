@@ -1,0 +1,15 @@
+git remote add heroku https://git.heroku.com/seema5542.git
+git remote -v
+git push heroku master:master
+heroku login
+clear
+exit
+git remote add heroku https://git.heroku.com/ram5542.git
+git init
+fetch = +refs/heads/*:refs/remotes/heroku/*
+git push heroku master
+deploy to heroku
+cd my-project/
+heroku git:remote -a ram5542
+git add .
+git commit -am "make it better"
